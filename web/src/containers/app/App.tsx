@@ -1,12 +1,13 @@
 import React from 'react';
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <h1 className='title'>Welcome to the Full-Stack template</h1>
+
+        <img className='logo' src="/pachimari.svg" alt="image" />
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -15,6 +16,9 @@ function App() {
         >
           Learn React
         </a>
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
       </header>
     </div>
   );

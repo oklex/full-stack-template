@@ -1,0 +1,28 @@
+@import "./animations.scss";
+@import "./colours.scss";
+@import "./typography.scss";
+
+// start with a CSS reset; avoid browser auto-formatting
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+html,
+body {
+    margin: 0 !important;
+    padding: 0;
+    border: 0;
+}
+
+body {
+  overflow-y: scroll;
+  .container {
+    padding-bottom: 25px;
+  }
+}
