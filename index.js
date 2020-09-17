@@ -1,0 +1,1 @@
+console.log(' > run `npm run server` instead of `npm start`\n')
